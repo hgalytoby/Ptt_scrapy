@@ -18,8 +18,11 @@ while True:<br><br>
 [![image](https://i.imgur.com/hJoWWMv.png)](https://drive.google.com/open?id=1mKID7gVvBlrk-1Wr5Gd5XwscDbbtg7nA)<br><br>
 有了雲端資料庫後, 開起 main.py 設定想要爬的日期(YYYY-MM-DD), 目前還沒做防呆請輸入正確 !<br><br>
 
-## 取得任務的 Url 的冒險者, 爬完文章上傳到雲端。
+## 幹部抓出所有符合日期的 Url, 上傳到雲端。
 ![image](https://i.imgur.com/jRNQPOy.gif)<br><br>
+
+## 取得任務的 Url 的冒險者, 爬完文章上傳到雲端。
+![image](https://i.imgur.com/w6q6U1h.gif)<br><br>
 
 ## 邏輯思維
 設立一個專門更新最新頁數的, 將最新的頁數上傳到雲端,
