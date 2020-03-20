@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 class Ptt:
     def __init__(self, start_date, end_date, db_client):
         """
-        client: mongodb資料庫。
+        client: mongodb 資料庫。
         start_date: 日期初。
         end_date: 日期尾。
         """
@@ -359,14 +359,16 @@ class Ptt:
 
 if __name__ == '__main__':
     # 已 mongodb 為例:
-    # 364 ~ 365 是我的雲端mongodb資料庫。
+    # 363 ~ 364 行是我的雲端mongodb資料庫。
     # db_client = pymongo.MongoClient(
     #     'mongodb+srv://<username>:<password>@dudulu-p5zz0.gcp.mongodb.net/test?retryWrites=true&w=majority')
+    # 輸入mongodb資料庫。
     db_client = pymongo.MongoClient()
-    # 輸入日期初與日期尾 YYYY-MM-DD
+
+    # 輸入日期初與日期尾 YYYY-MM-DD。
     ptt = Ptt(start_date='2020-3-10', end_date='2020-3-16', db_client=db_client)
 
-    # 將時間轉成 unix
+    # 將時間轉成 unix。
     ptt.process_date_unix()
 
     # 更新看板資料或更新今天最新日期, 如果是完全乾淨的資料庫, 請 write_title_data 和 write_today_update 都設為True。
