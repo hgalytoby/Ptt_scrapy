@@ -3,6 +3,10 @@
 ![image](https://im6.ezgif.com/tmp/ezgif-6-a96f622186ce.gif)<br><br>
 公會長:負責下日期。<br><br>
 副會長:會隔一段時間不斷的去抓各個看板的新頁數。<br><br>
+請將375行改成    
+while True:
+        ptt.get_ppt_title_data(write_title_data=False, write_today_update=True)
+        time.sleep(3600)<br><br>
 幹部:去資料庫(頁數)拿資料, 在開始爬日期內所有文章的網址, 寫到資料庫(任務)。<br><br>
 櫃台小姐:任務看板, 可以有多名冒險者(其他電腦)領取任務的網址爬文章。<br><br>
 ![image](https://im6.ezgif.com/tmp/ezgif-6-9047f1085401.gif)<br><br>
