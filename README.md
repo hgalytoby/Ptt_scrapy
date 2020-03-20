@@ -1,9 +1,9 @@
 # Ptt_scrapy
 ## 流程大綱
 
-![image](https://im6.ezgif.com/tmp/ezgif-6-a96f622186ce.gif)
+![image](https://im6.ezgif.com/tmp/ezgif-6-a96f622186ce.gif)<br><br>
 如果抓資料失敗會將抓失敗的網址與失敗的狀態寫入資料庫。<br><br>
-![image](https://im6.ezgif.com/tmp/ezgif-6-9047f1085401.gif)
+![image](https://im6.ezgif.com/tmp/ezgif-6-9047f1085401.gif)<br><br>
 
 ## MongoDB雲端開發, 所以以雲端Mongodb為例。
 ### [MongoDB雲端網頁](https://account.mongodb.com/account/login)<br><br>
