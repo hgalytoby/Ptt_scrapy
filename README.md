@@ -17,3 +17,7 @@ while True:<br><br>
 點擊以下圖片連結影片教學。<br><br>
 [![image](https://i.imgur.com/hJoWWMv.png)](https://drive.google.com/open?id=1mKID7gVvBlrk-1Wr5Gd5XwscDbbtg7nA)<br><br>
 有了雲端資料庫後, 開起 main.py 設定想要爬的日期(YYYY-MM-DD), 目前還沒做防呆請輸入正確 !
+
+## 待開發功能
+目前已 Url 為標準資料庫有同樣的 Url 就不寫入, 但因每篇文章之後會有新的回文, 所以後續會增加更新資料的功能。
+考慮到可能做任務到一半, 發生停機的狀況, 
