@@ -3,7 +3,7 @@
 ![image](https://im6.ezgif.com/tmp/ezgif-6-a96f622186ce.gif)<br><br>
 公會長:負責下日期。<br><br>
 副會長:會隔一段時間不斷的去抓各個看板的新頁數。<br><br>
-請將375行改成<br><br>
+請將375行改成(預設一小時抓一次)<br><br>
 while True:<br><br>
 　　　ptt.get_ppt_title_data(write_title_data=False, write_today_update=True)<br><br>
 　　　time.sleep(3600)<br><br>
