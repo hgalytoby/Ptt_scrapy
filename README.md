@@ -7,7 +7,7 @@
 while True:<br><br>
 　　　ptt.get_ppt_title_data(write_title_data=False, write_today_update=True)<br><br>
 　　　time.sleep(3600)<br><br>
-幹部:去資料庫(頁數)拿資料, 在開始爬日期內所有文章的網址, 寫到資料庫(任務)。<br><br>
+幹部:到資料庫(頁數)拿資料, 在開始爬日期內所有文章的網址, 寫到資料庫(任務)。<br><br>
 櫃台小姐:任務看板, 可以有多名冒險者(其他電腦)領取任務的網址爬文章。<br><br>
 ![image](https://i.imgur.com/zeu3Dmz.gif)<br><br>
 如果抓資料失敗會將抓失敗的網址與失敗的狀態寫入資料庫。<br><br>
