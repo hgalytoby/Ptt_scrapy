@@ -42,7 +42,7 @@ while True:
 * 369 行 務必輸入日期初與日期尾以便讓之後的程式碼讀取日期 YYYY-MM-DD。<br><br>
 * 375 行 更新看板資料或更新今天最新日期，如果是完全乾淨的資料庫，請 write_title_data 和 write_today_update 都設為True。<br><br>
 * 379 行 如果雲端資料庫已經有看板資料與今日看板最新頁資料，可以不用做 375 行。給 Ptt 看板名稱(list), 如果沒給看板名稱，預設爬全部看板。example : `['Stock', 'Gossiping']`<br><br>
-* 382 行  給看板名稱(list)。example : `['Stock', 'Gossiping']`<br><br>
+* 382 行  取得任務，給看板名稱(list)，如果沒給看板名稱，預設執行全部看板任務。example : `['Stock', 'Gossiping']`<br><br>
 
 ## 待開發功能
 * 目前會隔一段時間不斷的去抓各個看板的新頁數是在本地端執行，後續會部屬到雲端上運行。<br><br>
