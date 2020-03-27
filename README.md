@@ -39,10 +39,10 @@ while True:
 * 安裝套件庫 `pip install -r requirements.txt`<br><br>
 * 執行 main.py<br><br>
 * 366 行 輸入 mongodb 資料庫。<br><br>
-* 369 行 輸入日期初與日期尾 YYYY-MM-DD。<br><br>
+* 369 行 務必輸入日期初與日期尾以便讓之後的程式碼讀取日期 YYYY-MM-DD。<br><br>
 * 375 行 更新看板資料或更新今天最新日期，如果是完全乾淨的資料庫，請 write_title_data 和 write_today_update 都設為True。<br><br>
-* 379 行 如果雲端資料庫已經有看板資料與今日看板最新頁資料，可以不用做 375 行。給 Ptt 看板名稱(list), 如果沒給看板名稱，預設爬全部看板。(['Stock', 'Gossiping'])<br><br>
-* 382 行 給看板名稱與指定時間內其中一頁頁數的字典。(Key:看板名稱, value:頁數)<br><br>
+* 379 行 如果雲端資料庫已經有看板資料與今日看板最新頁資料，可以不用做 375 行。給 Ptt 看板名稱(list), 如果沒給看板名稱，預設爬全部看板。example : `['Stock', 'Gossiping']`<br><br>
+* 382 行 給看板名稱與指定時間內其中一頁頁數的字典。example : `{Key=看板名稱, value=頁數}`<br><br>
 
 ## 待開發功能
 * 目前會隔一段時間不斷的去抓各個看板的新頁數是在本地端執行，後續會部屬到雲端上運行。<br><br>
