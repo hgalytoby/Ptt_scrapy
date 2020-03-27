@@ -35,8 +35,10 @@ while True:
 這樣可以不同電腦做不同的任務，當任務被某一台電腦拿走時，任務資料庫會刪除此任務。<br><br>
 
 ## 使用方法
-* [下載程式碼] (https://github.com/hgalytoby/Ptt_scrapy.git)
-* 安裝套件庫 `pip install -r requirements.txt`
+* [下載程式碼] (https://github.com/hgalytoby/Ptt_scrapy.git)<br><br>
+* 安裝套件庫 `pip install -r requirements.txt`<br><br>
+* 執行 main.py
+* ```python db_client ```
 
 ## 待開發功能
 * 目前會隔一段時間不斷的去抓各個看板的新頁數是在本地端執行，後續會部屬到雲端上運行。<br><br>
