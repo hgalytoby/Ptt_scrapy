@@ -4,6 +4,7 @@
 公會長 : 負責下日期。<br><br>
 副會長 : 會隔一段時間不斷的去抓各個看板的新頁數。<br><br>
 將額外開一個 main.py 將 375 行改成 ( 預設一小時更新一次 ) <br><br>
+```python
 while True:
     ptt.get_ppt_title_data(write_title_data=False, write_today_update=True)
     time.sleep(3600)
