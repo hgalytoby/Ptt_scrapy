@@ -35,7 +35,7 @@ while True:
 這樣可以不同電腦做不同的任務，當任務被某一台電腦拿走時，任務資料庫會刪除此任務。<br><br>
 
 ## 使用方法
-* [下載程式碼] (https://github.com/hgalytoby/Ptt_scrapy.git)<br><br>
+* [下載程式碼](https://github.com/hgalytoby/Ptt_scrapy.git)<br><br>
 * 安裝套件庫 `pip install -r requirements.txt`<br><br>
 * 執行 main.py<br><br>
 * 366 行 輸入 mongodb 資料庫。<br><br>
