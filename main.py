@@ -374,9 +374,9 @@ if __name__ == '__main__':
     # 更新看板資料或更新今天最新日期, 如果是完全乾淨的資料庫, 請 write_title_data 和 write_today_update 都設為True。
     ptt.get_ppt_title_data(write_title_data=True, write_today_update=True)
 
-    # 如果雲端資料庫已經有看板資料與今日看板最新頁資料, 可以不用做373行。
+    # 如果雲端資料庫已經有看板資料與今日看板最新頁資料, 可以不用做375行。
     # 給 Ptt 看板名稱(list), 如果沒給看板名稱, 預設爬全部看板。
     ptt.start_mission_search_page()
 
-    # 給看板名稱與指定時間內其中一頁頁數的字典。(Key:看板名稱, value:頁數)
+    # 取得任務, 給看板名稱(list), 如果沒給看板名稱, 預設執行全部看板任務。
     ptt.start_mission()

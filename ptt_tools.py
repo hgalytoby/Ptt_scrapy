@@ -1,7 +1,5 @@
 import time
 import random
-import asyncio
-import aiohttp
 import datetime
 import requests
 from bs4 import BeautifulSoup
