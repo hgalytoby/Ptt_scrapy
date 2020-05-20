@@ -1,5 +1,4 @@
 # Ptt_scrapy
-## 流程大
 ## MongoDB雲端開發，所以以雲端Mongodb為例。
 ### [MongoDB雲端網頁](https://account.mongodb.com/account/login)<br><br>
 點擊以下圖片連結影片教學。<br><br>
